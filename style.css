@@ -292,10 +292,11 @@ footer {
   }
 }
 
+/* ------------------------------------------ */
 @media screen and (max-width: 576px) {
   .calculator {
-    grid-template-rows: 100px repeat(5, 70px);
     grid-template-columns: repeat(4, 70px);
+    grid-template-rows: 100px repeat(5, 70px);
     gap: 22px;
     grid-auto-flow: row dense;
   }
@@ -321,7 +322,8 @@ footer {
   }
 
   .minus {
-    grid-column: 4;
+    grid-column-start: -1;
+    grid-column-end: -2;
   }
 
   .divide {
@@ -330,11 +332,10 @@ footer {
   }
 
   .plus {
-    grid-area: 4 / 4 span 2;
+    grid-area: 4 / 4 / span 2;
   }
 
-  .equals {
+  /* .equals {
     grid-area: 6 / 3 / 7 / 5;
-  }
+  } */
 }
-/* ------------------------------------------ */
