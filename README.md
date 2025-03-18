@@ -1,1 +1,8 @@
-# Посмотреть проект => [Website layout](https://sheensheella.github.io/Calculator-made-with-grids/)
+# Посмотреть проект => [Calculator with CSS Grid](https://sheensheella.github.io/Calculator-made-with-grids/)
+
+
+
+* Создана основная структура макета с использованием CSS Grid.
+* Реализована сетка для калькулятора.
+* Добавлены специальные стили для кнопок.
+* Реализована адаптивная верстка.
